@@ -1,0 +1,203 @@
+/*  
+
+Здесь закомментированный код для первого задания*/
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 243, 240);
+}
+
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    font-size: 24px;
+    padding: 10px;
+}
+
+ul > li:hover {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(63, 2, 71);
+    cursor: context-menu;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-inner {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-inner {
+    width: 100%;
+    display: flex;
+}
+
+.aside-left {
+    width: 30%;
+    height: 670px;
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 0);
+}
+
+.aside-right {
+    width: 70%;
+    height: 670px;
+    padding: 25px;
+    background-color: rgb(87, 87, 56);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+/* картинку лучше скачать и положить локально в папку */
+
+/* .article-image {
+    width: 100%;
+    height: 400px;
+    background: url("https://wordpress-developer.pp.ua/wp-content/uploads/flexbox-css.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-bottom {
+    width: 100%;
+    height: 250px;
+    padding-top: 20px;
+}
+
+.article-bottom-images {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.article-block {
+    width: 25%;
+    height: 150px;
+
+    background-color: black;
+}
+
+.article-block:hover {
+    width: 26%;
+    height: 160px;
+
+    background-color: rgb(63, 2, 71);
+}
+
+.footer-inner {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+body {
+    background-color: rgb(245, 246, 246);
+    color: rgb(19, 18, 18);
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 46px;
+    color: #fff;
+    text-align: center;
+}
+h2 {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+.header__wrap, .footer__wrap {
+    padding: 20px;
+    background-color: #000;
+}
+.main__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.block--left{
+    width: 30%;
+    background-color: rgb(255, 255, 0);
+    padding-top: 10px;
+}
+.menu__item{
+    list-style: none;
+    font-size: 24px;
+    margin: 4px 0;
+}
+.menu__item:hover{
+    font-weight: 700;
+}
+.block--right{
+    width: 70%;
+    background-color: rgb(87, 86, 55);
+    padding: 20px;
+}
+.img{
+    width: 100%;
+    height: 450px;
+    background: url('https://wordpress-developer.pp.ua/wp-content/uploads/flexbox-css.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content-text{
+    display: flex;
+    justify-content: space-between;
+}
+.content__text{
+    width: 30%;
+    height: 100px;
+    background-color: #000;
+}
